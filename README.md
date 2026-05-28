@@ -1,4 +1,4 @@
-# 🚀 Switchboard — Distributed Backend Platform
+# 🚀 Switchboard - Distributed Backend Platform
 
 ## Overview
 A production-style distributed microservices backend built to explore
