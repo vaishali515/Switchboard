@@ -43,17 +43,17 @@ graph TD
 - All services containerized with Docker Compose
 
 ## Services
-- `service-discovery` — Eureka server, service registry `:8761`
-- `config-server` — Centralized config via Git + AWS SSM `:8888`
-- `auth-service` — JWT RS256, OTP, Google OAuth2
-- `api-gateway` — Routing, JWT validation, user header injection `:8080`
-- `portfolio-service` — User portfolio CRUD, AWS S3 uploads
-- `interview-service` — Interview experience sharing, Redis cache
-- `roadmap-service` — Goal/task tracking, OpenFeign inter-service calls
-- `workspace-service` — Multi-workspace management
-- `notification-service` — Kafka consumer, AWS SES + Gmail dispatch
-- `common-dto` — Shared Kafka event schemas (GitHub Packages JAR)
-- `ui` — React 19 SPA, Tailwind CSS, Google OAuth
+- `service-discovery` - Eureka server, service registry `:8761`
+- `config-server` - Centralized config via Git + AWS SSM `:8888`
+- `auth-service` - JWT RS256, OTP, Google OAuth2
+- `api-gateway` - Routing, JWT validation, user header injection `:8080`
+- `portfolio-service` - User portfolio CRUD, AWS S3 uploads
+- `interview-service` - Interview experience sharing, Redis cache
+- `roadmap-service` - Goal/task tracking, OpenFeign inter-service calls
+- `workspace-service` - Multi-workspace management
+- `notification-service` - Kafka consumer, AWS SES + Gmail dispatch
+- `common-dto` - Shared Kafka event schemas (GitHub Packages JAR)
+- `ui` - React 19 SPA, Tailwind CSS, Google OAuth
 
 ## Startup Order
 ```
