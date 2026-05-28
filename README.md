@@ -33,12 +33,12 @@ Client → Nginx (Reverse Proxy)
 - All services containerized with Docker Compose
 
 ## Services
-- `auth-service` — JWT auth, Redis OTP, OAuth2
-- `notification-service` — Kafka consumer, email/SMS dispatch
-- `portfolio-service` — User portfolio CRUD, paginated APIs
-- `workspace-service` — Workspace management
-- `api-gateway` — Routing, rate limiting, auth passthrough
-- `roadmap-service` — Goal tracking
+- `auth-service` - JWT auth, Redis OTP, OAuth2
+- `notification-service` - Kafka consumer, email/SMS dispatch
+- `portfolio-service` - User portfolio CRUD, paginated APIs
+- `workspace-service` - Workspace management
+- `api-gateway` - Routing, rate limiting, auth passthrough
+- `roadmap-service` - Goal tracking
 
 ## Local Setup
 ```bash
